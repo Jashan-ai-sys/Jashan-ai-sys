@@ -42,7 +42,7 @@
   <img align="center" alt="Jashan | Linkedin" width="24px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />
 </a> &nbsp;&nbsp;
 
-<a href="mailto:your-email@gmail.com">
+<a href="mailto:Singhjashanprit86@gmail.com">
   <img align="center" alt="Jashan | Gmail" width="26px" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" />
 </a>
 </p>
