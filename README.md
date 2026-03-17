@@ -1,92 +1,59 @@
-# 🚀 Jashanprit | Agentic AI Engineer
+<h1 align="center"> Hi there 👋, I'm Jashan</h1>
 
-> Building real-world AI systems with multi-agent orchestration, RAG pipelines, and dynamic skill generation.
+<a target="_blank" href="https://github.com/Jashan-ai-sys">
+  <img src="https://github.com/Jashan-ai-sys/Jashan-ai-sys/blob/main/banner.png"/>
+</a>
 
----
+<p align="center">
+	<a href="https://github.com/Jashan-ai-sys">
+		<img src="https://readme-typing-svg.herokuapp.com/?lines=Agentic+AI+Engineer;RAG+Systems;Multi-Agent+Orchestration;AI+Skill+Generation;Building+Real+AI+Systems&center=true&width=500&height=45">
+	</a>
+</p>
 
-## 🧠 Who Am I?
+# 💻 Tech Stack <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="32px">
 
-I don’t just learn AI — I **build systems that think, plan, and execute.**
+![Python](https://img.shields.io/badge/python-darkblue.svg?style=for-the-badge\&logo=python\&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge\&logo=c%2B%2B\&logoColor=white)
 
-* ⚡ Focused on **Agentic AI Systems**
-* 🧩 Working on **multi-agent orchestration**
-* 🔍 Exploring **dynamic AI skill generation**
-* 🚀 Shipping real projects with **deployment + architecture**
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge\&logo=fastapi)
+![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge\&logo=django\&logoColor=white)
+![RESTful API](https://img.shields.io/badge/RESTful%20API-%23007396.svg?style=for-the-badge\&logo=api\&logoColor=white)
 
----
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF6F00?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge)
 
-## 🏗️ What I’m Building
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
 
-### 🧠 RAG AI Assistant (Production-Oriented)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge\&logo=amazon-aws\&logoColor=white)
 
-* Multi-agent workflow (planner + executor)
-* Context-aware retrieval
-* AWS deployment pipeline
-
----
-
-### 🤖 AI Skill Generator
-
-* Converts user goals → executable agent skills
-* Moves beyond static automation modules
-* Designed for future agent ecosystems
-
----
-
-### 📄 Resume Intelligence System
-
-* NER-based skill extraction
-* LLM-powered feedback engine
-* Personalized improvement suggestions
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge\&logo=github\&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge\&logo=docker\&logoColor=white)
 
 ---
 
-## ⚙️ Tech Arsenal
+<div align="center">
+  <h3><b>Let's get in touch!</b></h3>
+</div>
 
-**AI / LLM**
+<p align="center">
+<a href="https://www.linkedin.com/in/jashanprit-singh-" target="_blank">
+  <img align="center" alt="Jashan | Linkedin" width="24px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />
+</a> &nbsp;&nbsp;
 
-* LangChain | CrewAI | OpenAI APIs
-* RAG | Vector DBs (FAISS)
-
-**Backend**
-
-* FastAPI | Django
-
-**Cloud**
-
-* AWS (EC2, IAM, S3)
-
-**Core**
-
-* Python | System Design | APIs
+<a href="mailto:your-email@gmail.com">
+  <img align="center" alt="Jashan | Gmail" width="26px" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" />
+</a>
+</p>
 
 ---
 
-## 🧩 How I Think
+<!-- OPTIONAL BADGES SECTION (ADD LATER ONLY IF REAL) -->
 
-> “AI is not just models. It's systems.”
+<p align="center">
 
-I focus on:
+<img src="https://github.com/Jashan-ai-sys/Jashan-ai-sys/blob/main/badges/badge1.png" width="100px">
+<img src="https://github.com/Jashan-ai-sys/Jashan-ai-sys/blob/main/badges/badge2.png" width="100px">
 
-* Designing **modular AI architectures**
-* Building **scalable pipelines**
-* Turning ideas into **deployable products**
-
----
-
-## 📈 Current Focus
-
-* Advanced agent planning systems
-* Memory + reasoning in AI agents
-* Scaling LLM applications
-
----
-
-## 📬 Connect
-
-* 🔗 GitHub: https://github.com/Jashan-ai-sys
-* 💼 LinkedIn: https://linkedin.com/in/jashanprit-singh-
-
----
-
-⭐ If you like what I build, follow along.
+</p>
