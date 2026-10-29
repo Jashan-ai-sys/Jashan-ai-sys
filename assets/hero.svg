@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="t d">
+  <title id="t">Jashanprit Singh, AI Engineer</title>
+  <desc id="d">A live phone call card. A customer says the payment failed, the agent replies in Hindi within about a second and sends a payment link.</desc>
+  <style>
+    .name { font: 700 40px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f0f6fc; letter-spacing: -0.5px; }
+    .role { font: 500 17px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #9198a1; }
+    .mono { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #9198a1; }
+    .msg  { font: 500 13px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+    .tag  { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #3fb950; }
+  </style>
+  <rect width="1000" height="240" rx="12" fill="#0d1117"/>
+
+  <text x="48" y="104" class="name">Jashanprit Singh</text>
+  <text x="48" y="138" class="role">AI Engineer · voice agents, agentic systems, LLM inference</text>
+  <text x="48" y="176" class="mono">built on real phone calls · ~1.1 s from silence to reply</text>
+
+  <!-- call card -->
+  <rect x="600" y="28" width="360" height="184" rx="16" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <circle cx="626" cy="52" r="5" fill="#f85149">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+  <circle cx="626" cy="52" r="5" fill="none" stroke="#f85149" stroke-width="1.5">
+    <animate attributeName="r" values="5;12" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0" dur="1.4s" repeatCount="indefinite"/></circle>
+  <text x="640" y="56" class="msg">Live call</text>
+  <text x="944" y="56" text-anchor="end" class="mono">Hindi · Twilio</text>
+  <line x1="616" y1="68" x2="944" y2="68" stroke="#30363d"/>
+
+  <!-- conversation: each element keys its own 11 s track so the whole thing loops -->
+
+  <!-- customer 1 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05;0.07;0.93;0.98;1" dur="11s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0" keyTimes="0;0.05;0.07;1" dur="11s" repeatCount="indefinite"/>
+    <rect x="616" y="78" width="188" height="28" rx="14" fill="#21262d"/>
+    <text x="630" y="96" class="msg">Payment fail ho gaya tha…</text>
+  </g>
+
+  <!-- agent typing 1 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.125;0.135;0.245;0.255;1" dur="11s" repeatCount="indefinite"/>
+    <rect x="896" y="112" width="48" height="28" rx="14" fill="#1f4b8f"/>
+    <circle cx="910" cy="126" r="3" fill="#f0f6fc"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="126" r="3" fill="#f0f6fc"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.9s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="126" r="3" fill="#f0f6fc"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.9s" begin="0.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- agent 1 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.255;0.275;0.93;0.98;1" dur="11s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0" keyTimes="0;0.255;0.275;1" dur="11s" repeatCount="indefinite"/>
+    <rect x="700" y="112" width="244" height="28" rx="14" fill="#1f4b8f"/>
+    <text x="714" y="130" class="msg">Koi baat nahi, link bhej raha hoon.</text>
+    <text x="690" y="130" text-anchor="end" class="tag">1.1 s</text>
+  </g>
+
+  <!-- customer 2 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.42;0.44;0.93;0.98;1" dur="11s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0" keyTimes="0;0.42;0.44;1" dur="11s" repeatCount="indefinite"/>
+    <rect x="616" y="146" width="92" height="28" rx="14" fill="#21262d"/>
+    <text x="630" y="164" class="msg">Theek hai.</text>
+  </g>
+
+  <!-- agent typing 2 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.49;0.5;0.595;0.605;1" dur="11s" repeatCount="indefinite"/>
+    <rect x="896" y="180" width="48" height="28" rx="14" fill="#1f4b8f"/>
+    <circle cx="910" cy="194" r="3" fill="#f0f6fc"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="194" r="3" fill="#f0f6fc"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.9s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="194" r="3" fill="#f0f6fc"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.9s" begin="0.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- agent 2 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.605;0.625;0.93;0.98;1" dur="11s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0" keyTimes="0;0.605;0.625;1" dur="11s" repeatCount="indefinite"/>
+    <rect x="770" y="180" width="174" height="28" rx="14" fill="#1f4b8f"/>
+    <text x="784" y="198" class="msg">Payment link bhej diya ✓</text>
+    <text x="760" y="198" text-anchor="end" class="tag">0.9 s</text>
+  </g>
+</svg>

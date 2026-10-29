@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.webp" alt="Jashanprit Singh, AI Engineer. A glowing voice orb shifts colour while the caption cycles through listening, thinking and acting." width="100%"/>
+  <img src="assets/hero.svg" alt="Jashanprit Singh, AI Engineer. A live phone call card: the customer says the payment failed, the agent replies in Hindi within about a second and sends a payment link." width="100%"/>
 </p>
 
 <p align="center">
