@@ -1,107 +1,202 @@
-<h1 align="center"> Hi there 👋, I'm Jashan</h1>
+<p align="center">
+  <img src="assets/hero.svg" alt="Jashanprit Singh, AI Engineer: voice agents, agentic systems, LLM inference and automation" width="100%"/>
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Agentic+AI+Engineer;RAG+Systems;Multi-Agent+Orchestration;AI+Skill+Generation;Always+Building+Real+Systems&center=true&width=500&height=45">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=900&color=3987E5&center=true&vCenter=true&width=600&lines=AI+Engineer;Voice+agents+on+real+phone+calls;Multi-agent+systems+with+MCP;LLM+inference+%26+routing;Hackathon+builder%2C+production+shipper" alt="Typing summary"/></a>
+</p>
+
+<p align="center">
+  <a href="https://jashan-ai-sys.github.io/"><img src="https://img.shields.io/badge/Portfolio-jashan--ai--sys.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/jashanprit-singh-"><img src="https://img.shields.io/badge/LinkedIn-jashanprit--singh-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:singhjashanprit86@gmail.com"><img src="https://img.shields.io/badge/Email-singhjashanprit86%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 </p>
 
 ---
 
-<p align="center">
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="750"/>
-</p>
+### About me
+
+- I'm an AI engineer who builds **systems that run in production**: voice agents on live phone calls, multi-agent pipelines, LLM serving infrastructure and automation.
+- I like turning a hackathon idea into something that holds up with real users, real latency and real failure modes.
+- I prefer **measured numbers** to claims. My project READMEs say where each number came from.
+- B.Tech CSE, graduating 2027. I work full-time as an AI engineer alongside my degree.
 
 ---
 
-# 💻 Tech Stack <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="32px">
+## 🚀 Featured projects
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📞 [Dunning Agent](https://github.com/Jashan-ai-sys/dunning-agent)
+**Voice AI for revenue recovery** · Razorpay AI Buildathon
+
+Detects failed subscription payments and **calls customers in Hindi** over Twilio. During the call it can send a payment link or re-authorise a mandate. It runs live on Cloud Run, with **~1.13 s** from the moment the customer stops speaking to the agent's reply.
+
+`Pipecat` `Twilio` `Gemini` `MCP` `Cloud Run`
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ [Inference Gateway](https://github.com/Jashan-ai-sys/inference-gateway)
+**LLM routing + scheduling** · in progress
+
+An OpenAI-compatible gateway in front of vLLM and hosted APIs. Its router picks the backend from cost, quality and predicted latency, and its scheduler orders requests by deadline, tenant fairness and KV-cache headroom. A benchmark on an L4 GPU is in progress.
+
+`vLLM` `FastAPI` `Prometheus` `Terraform` `AWS`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛒 [ShopWave Multi-Agent Support](https://github.com/Jashan-ai-sys/ShopWave-MultiAgent-Customer-Support-System)
+**Agentic customer support** · Ksolves Agentic AI Hackathon
+
+A self-correcting pipeline that runs risk analysis, then a planner, a validator, an MCP executor and a responder, with a reflection loop when a tool fails and a dead-letter queue.
+
+`Gemini` `MCP` `Python`
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [AI Sales Call Intelligence](https://github.com/Jashan-ai-sys/AI-Sales-Call-Intelligence-System)
+**Speech → insights**
+
+Turns a call recording into a transcript, extracts intent, sentiment and objections, flags "magic moments", writes LLM coaching and runs a RAG search over past calls.
+
+`Whisper` `spaCy` `Llama 3.3` `ChromaDB`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💊 [PharmaConnect](https://github.com/Jashan-ai-sys/pharmaconnect-prototype)
+**Pharmacy platform** · Centific Hackathon
+
+A POS with role-based access, FEFO stock depletion and atomic billing. When a drug is out of stock, an AI engine suggests a substitute for the pharmacist to approve.
+
+`FastAPI` `SQLAlchemy` `JWT`
+
+</td>
+<td width="50%" valign="top">
+
+### 🍯 [Agentic Honey-Pot](https://github.com/Jashan-ai-sys/Agentic-Honey-Pot-for-Scam-Detection-Intelligence-Extraction)
+**Scam intelligence** · GUVI Hackathon
+
+A persona agent that keeps scammers talking and extracts their UPI IDs, URLs and phone numbers for reporting.
+
+`FastAPI` `LLM agents`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>More repos</b></summary>
+<br/>
+
+| Project | What it is |
+|---|---|
+| [Portfolio](https://github.com/Jashan-ai-sys/Jashan-ai-sys.github.io) | My freelance site for AI voice agents, chatbots and automation (React, Tailwind, three.js) |
+| [LeetCode → GitHub](https://github.com/Jashan-ai-sys/LeetCode-to-GitHub-Automation) | Syncs my accepted LeetCode submissions to GitHub, sorted by difficulty |
+| [Telecom Revenue Analysis](https://github.com/Jashan-ai-sys/Telecom-Customer-Billing-and-Revenue-Analysis) | Revenue drivers, service bundling, hypothesis tests and outliers (Pandas, SciPy, statsmodels) |
+
+</details>
+
+---
+
+## 🔍 Deep dives
+
+<details>
+<summary><b>📞 Dunning Agent: where the 1.13 s goes</b></summary>
+<br/>
 <p align="center">
+  <img src="assets/voice-latency.svg" alt="Per-stage p50 latency: STT first byte 0.396 s, turn detection 0.173 s, LLM first token 0.553 s, TTS first audio 0.209 s; about 1.13 s from customer silence to agent reply" width="100%"/>
+</p>
 
-<!-- LANGUAGES -->
+- **The model can't invent an outcome.** The conversation is a graph. The LLM picks an edge label, and the code refuses any label that isn't legal at the current node.
+- **The agent can't name a case.** Its MCP tools take no arguments, and the code injects the case where the model can't reach it.
+- **Nobody is called twice about the same debt.** This is enforced with `FOR UPDATE SKIP LOCKED` and a concurrency test.
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+</details>
 
-<!-- WEB / API -->
+<details>
+<summary><b>⚡ Inference Gateway: how a request is placed</b></summary>
+<br/>
 
-<img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi"/>
+```mermaid
+flowchart LR
+    C([Client<br/>OpenAI API]) --> A[Analyzer<br/>tokens · class · deadline]
+    A --> R{Model Router<br/>filter → predict TTFT → rank}
+    R -->|chosen backend| S[Workload Scheduler<br/>class queues · VTC fairness<br/>aging · KV admission]
+    S -. "queue_wait(b, class)" .-> R
+    S --> D[Dispatcher<br/>streaming · backpressure<br/>circuit breaker]
+    D --> G1[(vLLM<br/>Qwen3-1.7B)]
+    D --> G2[(vLLM<br/>Qwen3-8B-AWQ)]
+    D --> H[(Hosted<br/>Groq · Gemini)]
+    G1 & G2 -. "/metrics every 1 s" .-> T[Telemetry<br/>TTFT / TPOT EWMAs]
+    T -.-> R
+```
 
-<!-- DATA / ML -->
+The router reads the scheduler's predicted queue wait. When an interactive request would miss its deadline on the local GPU, it overflows to a hosted API. The gateway core is merged with 133 tests. The benchmark compares six places scheduling could live, from FIFO passthrough to vLLM-native priority to separate replica pools, and its results will be published with confidence intervals.
 
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-48C9B0?style=for-the-badge&logo=scikit-learn"/>
-<img src="https://img.shields.io/badge/Matplotlib-white?style=for-the-badge&logo=matplotlib"/>
-<img src="https://img.shields.io/badge/Seaborn-008080?style=for-the-badge"/>
+</details>
 
-<!-- DL -->
+---
 
-<img src="https://img.shields.io/badge/TensorFlow-orange?style=for-the-badge&logo=tensorflow"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras"/>
-<img src="https://img.shields.io/badge/PyTorch-black?style=for-the-badge&logo=pytorch"/>
+## 🛠️ Tech stack
 
-<!-- GEN AI / LLM -->
-
-<img src="https://img.shields.io/badge/LangChain-black?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LlamaIndex-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFCC00?style=for-the-badge&logo=huggingface"/>
-<img src="https://img.shields.io/badge/spaCy-0060A8?style=for-the-badge"/>
+**AI & LLMs**<br/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hugging%20Face-FFCC00?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/LlamaIndex-0d1117?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MCP-0d1117?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG-FF5733?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/vLLM-0d1117?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RAG%20Pipelines-FF5733?style=for-the-badge"/>
 
-<!-- DATABASE -->
+**Voice AI**<br/>
+<img src="https://img.shields.io/badge/Pipecat-0d1117?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Whisper-412991?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STT%20%C2%B7%20TTS%20%C2%B7%20VAD-0d1117?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/MySQL-0000FF?style=for-the-badge&logo=mysql"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite"/>
+**Backend**<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 
-<!-- CLOUD -->
+**Cloud & ops**<br/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Bedrock-232F3E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws"/>
-<img src="https://img.shields.io/badge/AWS%20Bedrock-232F3E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/App%20Runner-FF9900?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/IAM-232F3E?style=for-the-badge"/>
+**ML & data**<br/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 
-<!-- DEVOPS -->
-
-<img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker"/>
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins"/>
-
-<!-- TOOLS -->
-
-<img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git"/>
-<img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github"/>
-<img src="https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest"/>
-
-<!-- OPTIONAL (KEEP ONLY IF YOU ACTUALLY USE) -->
-
-<img src="https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=figma"/>
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva"/>
-
-</p>
 ---
 
-<div align="center">
-  <h3><b>Let's get in touch!</b></h3>
-</div>
+## 📈 GitHub activity
 
 <p align="center">
-
-<a href="https://www.linkedin.com/in/jashanprit-singh-" target="_blank">
-  <img align="center" alt="Jashan | LinkedIn" width="40px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />
-</a> &nbsp;&nbsp;&nbsp;
-
-<a href="https://www.instagram.com/your-instagram-id" target="_blank">
-  <img align="center" alt="Jashan | Instagram" width="40px" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" />
-</a> &nbsp;&nbsp;&nbsp;
-
-<a href="mailto:Singhjashanprit86@gmail.com">
-  <img align="center" alt="Jashan | Gmail" width="40px" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" />
-</a>
-
+  <img src="https://streak-stats.demolab.com?user=Jashan-ai-sys&theme=github-dark-blue&hide_border=true&border_radius=12" alt="GitHub streak" height="170"/>
 </p>
 
+<p align="center">
+  <img src="https://ghchart.rshah.org/3987e5/Jashan-ai-sys" alt="Contribution heatmap" width="100%"/>
+</p>

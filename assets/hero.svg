@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="t d">
+  <title id="t">Jashanprit Singh, AI Engineer</title>
+  <desc id="d">Four areas of work, voice agents, agentic systems, LLM inference and automation, connected to a central node.</desc>
+  <style>
+    .name { font: 700 40px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+    .role { font: 500 17px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #9198a1; }
+    .mono { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #c9d1d9; }
+    .box  { fill: #161b22; stroke: #30363d; stroke-width: 1.5; }
+    .core { fill: #161b22; stroke: #3987e5; stroke-width: 2; }
+    .wire { stroke: #30363d; stroke-width: 2; fill: none; }
+    .tok  { fill: #3987e5; }
+    @media (prefers-reduced-motion: reduce) { animateMotion { display: none; } }
+  </style>
+  <rect width="1000" height="240" rx="12" fill="#0d1117"/>
+
+  <text x="48" y="104" class="name">Jashanprit Singh</text>
+  <text x="48" y="138" class="role">AI Engineer · I build AI systems that run in production</text>
+  <text x="48" y="176" class="mono" style="fill:#9198a1">voice agents · agentic systems · LLM inference · automation</text>
+
+  <path id="a" d="M690 66 L790 120"  class="wire"/>
+  <path id="b" d="M890 66 L790 120"  class="wire"/>
+  <path id="c" d="M690 174 L790 120" class="wire"/>
+  <path id="e" d="M890 174 L790 120" class="wire"/>
+
+  <rect x="630" y="48" width="120" height="36" rx="8" class="box"/>
+  <text x="690" y="71" text-anchor="middle" class="mono">voice</text>
+  <rect x="830" y="48" width="120" height="36" rx="8" class="box"/>
+  <text x="890" y="71" text-anchor="middle" class="mono">agents</text>
+  <rect x="630" y="156" width="120" height="36" rx="8" class="box"/>
+  <text x="690" y="179" text-anchor="middle" class="mono">inference</text>
+  <rect x="830" y="156" width="120" height="36" rx="8" class="box"/>
+  <text x="890" y="179" text-anchor="middle" class="mono">automation</text>
+
+  <circle r="4" class="tok"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#a"/></animateMotion></circle>
+  <circle r="4" class="tok"><animateMotion dur="1.6s" begin="0.4s" repeatCount="indefinite"><mpath href="#b"/></animateMotion></circle>
+  <circle r="4" class="tok"><animateMotion dur="1.6s" begin="0.8s" repeatCount="indefinite"><mpath href="#c"/></animateMotion></circle>
+  <circle r="4" class="tok"><animateMotion dur="1.6s" begin="1.2s" repeatCount="indefinite"><mpath href="#e"/></animateMotion></circle>
+
+  <circle cx="790" cy="120" r="26" class="core"/>
+  <text x="790" y="125" text-anchor="middle" class="mono" style="fill:#f0f6fc">AI</text>
+</svg>
