@@ -20,6 +20,7 @@
 - I like turning a hackathon idea into something that holds up with real users, real latency and real failure modes.
 - I prefer **measured numbers** to claims. My project READMEs say where each number came from.
 - B.Tech CSE, graduating 2027. I work full-time as an AI engineer alongside my degree.
+- 🌐 **Portfolio:** [jashan-ai-sys.github.io](https://jashan-ai-sys.github.io/): case studies and how to hire me for AI voice agents, chatbots and automation.
 
 ---
 
@@ -199,4 +200,13 @@ The router reads the scheduler's predicted queue wait. When an interactive reque
 
 <p align="center">
   <img src="https://ghchart.rshah.org/3987e5/Jashan-ai-sys" alt="Contribution heatmap" width="100%"/>
+</p>
+
+---
+
+<p align="center">
+  <b>Let's build something.</b><br/><br/>
+  <a href="https://jashan-ai-sys.github.io/"><img src="https://img.shields.io/badge/Visit%20my%20portfolio-jashan--ai--sys.github.io-3987e5?style=for-the-badge&logo=githubpages&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/jashanprit-singh-"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:singhjashanprit86@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
