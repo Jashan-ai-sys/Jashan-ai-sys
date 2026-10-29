@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Jashanprit Singh, AI Engineer: voice agents, agentic systems, LLM inference and automation" width="100%"/>
+  <img src="assets/hero.webp" alt="Jashanprit Singh, AI Engineer. A glowing voice orb shifts colour while the caption cycles through listening, thinking and acting." width="100%"/>
 </p>
 
 <p align="center">
