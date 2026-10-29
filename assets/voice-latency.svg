@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300" role="img" aria-labelledby="t d">
+  <title id="t">Dunning Agent: per-stage p50 latency on production calls</title>
+  <desc id="d">STT time to first byte 0.396 s (n=6); turn detection 0.173 s (n=7); LLM time to first token 0.553 s (n=11); TTS time to first audio 0.209 s (n=10). Customer stops speaking to agent reply about 1.13 s on one production call, 2026-09-04.</desc>
+  <style>
+    .h   { font: 600 16px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+    .big { font: 700 34px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+    .lbl { font: 500 13px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1d9; }
+    .sub { font: 400 12px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #9198a1; }
+    .val { font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #f0f6fc; }
+    .bar { fill: #3987e5; }
+    .grid { stroke: #21262d; stroke-width: 1; }
+  </style>
+  <rect width="820" height="300" rx="12" fill="#0d1117"/>
+
+  <text x="28" y="40" class="h">Per-stage p50 latency, production phone calls (Hindi)</text>
+  <text x="28" y="60" class="sub">Stages overlap in the pipeline, so they do not add up to the end-to-end number.</text>
+
+  <!-- scale: 0..0.6 s over 360px, x0 = 230 -->
+  <line x1="230" y1="80" x2="230" y2="244" class="grid"/>
+  <line x1="350" y1="80" x2="350" y2="244" class="grid"/>
+  <line x1="470" y1="80" x2="470" y2="244" class="grid"/>
+  <line x1="590" y1="80" x2="590" y2="244" class="grid"/>
+  <text x="230" y="262" text-anchor="middle" class="sub">0</text>
+  <text x="350" y="262" text-anchor="middle" class="sub">0.2 s</text>
+  <text x="470" y="262" text-anchor="middle" class="sub">0.4 s</text>
+  <text x="590" y="262" text-anchor="middle" class="sub">0.6 s</text>
+
+  <text x="28" y="104" class="lbl">STT first byte</text>
+  <text x="28" y="119" class="sub">Sarvam saaras:v3 · n=6</text>
+  <rect x="230" y="94" width="237.6" height="22" rx="4" class="bar"/>
+  <text x="476" y="110" class="val">0.396 s</text>
+
+  <text x="28" y="144" class="lbl">Turn detection</text>
+  <text x="28" y="159" class="sub">SmartTurn v3, ONNX on CPU · n=7</text>
+  <rect x="230" y="134" width="103.8" height="22" rx="4" class="bar"/>
+  <text x="342" y="150" class="val">0.173 s</text>
+
+  <text x="28" y="184" class="lbl">LLM first token</text>
+  <text x="28" y="199" class="sub">Gemini 2.5 Flash, Vertex · n=11</text>
+  <rect x="230" y="174" width="331.8" height="22" rx="4" class="bar"/>
+  <text x="570" y="190" class="val">0.553 s</text>
+
+  <text x="28" y="224" class="lbl">TTS first audio</text>
+  <text x="28" y="239" class="sub">Cartesia · n=10</text>
+  <rect x="230" y="214" width="125.4" height="22" rx="4" class="bar"/>
+  <text x="364" y="230" class="val">0.209 s</text>
+
+  <!-- headline -->
+  <text x="792" y="120" text-anchor="end" class="big">~1.13 s</text>
+  <text x="792" y="142" text-anchor="end" class="sub">customer stops speaking</text>
+  <text x="792" y="158" text-anchor="end" class="sub">→ agent replies</text>
+  <text x="792" y="282" text-anchor="end" class="sub">Source: Cloud Run logs, one production call, 2026-09-04</text>
+</svg>
