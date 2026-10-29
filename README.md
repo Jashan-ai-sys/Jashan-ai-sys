@@ -14,12 +14,11 @@
 
 ---
 
-### About me
+<p align="center">
+  <img src="assets/terminal.svg" alt="whoami: Jashanprit Singh, AI Engineer, B.Tech CSE 2027. Focus: voice agents on real phone calls, multi-agent systems with MCP, LLM inference. Shipped: dunning-agent, inference-gateway, shopwave-agents, sales-call-intel, pharmaconnect, agentic-honeypot." width="100%"/>
+</p>
 
-- I'm an AI engineer who builds **systems that run in production**: voice agents on live phone calls, multi-agent pipelines, LLM serving infrastructure and automation.
-- I like turning a hackathon idea into something that holds up with real users, real latency and real failure modes.
-- I prefer **measured numbers** to claims. My project READMEs say where each number came from.
-- B.Tech CSE, graduating 2027. I work full-time as an AI engineer alongside my degree.
+<p align="center">🌐 <b>Portfolio:</b> <a href="https://jashan-ai-sys.github.io/">jashan-ai-sys.github.io</a>: case studies and how to hire me for AI voice agents, chatbots and automation</p>
 
 ---
 
@@ -197,6 +196,17 @@ The router reads the scheduler's predicted queue wait. When an interactive reque
   <img src="https://streak-stats.demolab.com?user=Jashan-ai-sys&theme=github-dark-blue&hide_border=true&border_radius=12" alt="GitHub streak" height="170"/>
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jashan-ai-sys/Jashan-ai-sys/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jashan-ai-sys/Jashan-ai-sys/output/snake.svg"/>
+  <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/Jashan-ai-sys/Jashan-ai-sys/output/snake-dark.svg" width="100%"/>
+</picture>
+
+---
+
 <p align="center">
-  <img src="https://ghchart.rshah.org/3987e5/Jashan-ai-sys" alt="Contribution heatmap" width="100%"/>
+  <b>Let's build something.</b><br/><br/>
+  <a href="https://jashan-ai-sys.github.io/"><img src="https://img.shields.io/badge/Visit%20my%20portfolio-jashan--ai--sys.github.io-3987e5?style=for-the-badge&logo=githubpages&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/jashanprit-singh-"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:singhjashanprit86@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
